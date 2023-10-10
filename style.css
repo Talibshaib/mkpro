@@ -1,6 +1,61 @@
-p{
-    color: red;
+body{
+    font-family: 'sono', sans-serif;
+
+
 }
-p{
-    font-size: larger;
+.maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2rem;
+
+
+}
+.container{
+    background-color: #F1EFEF;
+    padding: 20px;
+    flex: 1;
+   max-width: 400px;
+    border-radius: 5px;
+    text-align: center;
+}
+.pricetag{
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+.price{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.list li{
+    margin-bottom: 20px;
+}
+.button{
+    padding: 5px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+@media (max-width: 1260px){ .maincontainer
+    { 
+        flex-direction: column;
+        height: 100vh;
+        
+
+    }
+    
+
+
+
 }
